@@ -35,8 +35,10 @@ DB_PASSWORD=
    php artisan migrate
 
 6. Instalar Passport
-   Instala Passport y genera las claves de encriptación necesarias:
-   php artisan passport:install
+
+    Instala Passport y genera las claves de encriptación necesarias:
+    composer require laravel/passport
+    php artisan passport:install
 
 7. Configurar Passport
    Configura Passport en el modelo User. Edita app/Models/User.php
